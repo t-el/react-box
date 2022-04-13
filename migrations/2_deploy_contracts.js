@@ -1,5 +1,5 @@
-var SimpleStorage = artifacts.require("./SimpleStorage.sol");
+var LGCollection = artifacts.require("./LGCollection.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(SimpleStorage);
+  deployer.deploy(LGCollection(500,'ipfs://lkslpoeiznvdjyzreqmlpory'));
 };
